@@ -1,5 +1,5 @@
 
-var rotationSpeed = 0.001;
+var rotationSpeed = 0.005;
 var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
@@ -17,8 +17,8 @@ myOtherBox.addEventListener('mouseenter', function(){
 });
 
 myOtherBox.addEventListener('mouseleave', function(){
-	rotationSpeed = 0.001;
-	console.log('left');
+	rotationSpeed = 0.005;
+	console.log('right');
 });
 
 
